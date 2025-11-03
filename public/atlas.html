@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas v42 | Travel4Fun4U</title>
+    <meta name="description" content="Atlas v42 - The Sentient Engine for Creators. AI-powered decision making and strategic intelligence.">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPB2FSQ7S2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VPB2FSQ7S2');
+    </script>
+    
+    <!-- Supabase Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-fixed" id="mainNav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Travel4Fun4U</a>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/articles.html" class="nav-link">Articles</a>
+                <a href="/atlas.html" class="nav-link active">Atlas v42</a>
+                <a href="/about.html" class="nav-link">About</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Atlas Hero -->
+    <section class="atlas-hero">
+        <div class="container">
+            <div class="atlas-badge">AI Intelligence System</div>
+            <h1 class="atlas-title">Atlas v42</h1>
+            <p class="atlas-subtitle">The Sentient Engine for Creators</p>
+        </div>
+    </section>
+
+    <!-- Architecture Diagram -->
+    <section class="architecture-section">
+        <div class="container">
+            <h2 class="section-title">Decision Flow Architecture</h2>
+            <div class="ascii-diagram">
+                <pre>
+    [Input Layer]
+          |
+          v
+    +-------------+
+    | ATLAS CORE  |-----> [Modules Layer] -----> [Strategic Output]
+    +-------------+                                      |
+          ^                                              |
+          |                                              v
+          +---------------------[Learning Loop]----------+
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy-section">
+        <div class="container">
+            <h2 class="section-title">The Atlas Philosophy</h2>
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="philosophy-number">01</div>
+                    <h3>Adaptive Intelligence</h3>
+                    <p>Atlas learns from every interaction, continuously refining its decision-making capabilities to provide increasingly accurate strategic outputs.</p>
+                </div>
+                <div class="philosophy-card">
+                    <div class="philosophy-number">02</div>
+                    <h3>Modular Architecture</h3>
+                    <p>Built on a flexible, modular framework that allows seamless integration of new capabilities while maintaining core stability and performance.</p>
+                </div>
+                <div class="philosophy-card">
+                    <div class="philosophy-number">03</div>
+                    <h3>Creator-Centric Design</h3>
+                    <p>Engineered specifically for creative professionals, offering tools and insights that enhance productivity and unlock new possibilities.</p>
+                </div>
+                <div class="philosophy-card">
+                    <div class="philosophy-number">04</div>
+                    <h3>Continuous Evolution</h3>
+                    <p>The learning loop ensures Atlas evolves with your needs, adapting to changing contexts and emerging opportunities in real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section class="capabilities-section">
+        <div class="container">
+            <h2 class="section-title">Core Capabilities</h2>
+            <div class="capabilities-list">
+                <div class="capability-item">
+                    <div class="capability-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                    </div>
+                    <div class="capability-content">
+                        <h3>Strategic Analysis</h3>
+                        <p>Process complex data sets and identify patterns to generate actionable strategic insights</p>
+                    </div>
+                </div>
+                <div class="capability-item">
+                    <div class="capability-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="capability-content">
+                        <h3>Real-Time Adaptation</h3>
+                        <p>Dynamically adjust recommendations based on changing conditions and new information</p>
+                    </div>
+                </div>
+                <div class="capability-item">
+                    <div class="capability-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="capability-content">
+                        <h3>Predictive Modeling</h3>
+                        <p>Forecast trends and outcomes using advanced algorithms and historical data analysis</p>
+                    </div>
+                </div>
+                <div class="capability-item">
+                    <div class="capability-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="capability-content">
+                        <h3>Collaborative Intelligence</h3>
+                        <p>Work alongside human creativity to amplify ideas and accelerate project development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="atlas-subscribe-section">
+        <div class="container">
+            <div class="subscribe-card">
+                <h2>Get Early Access to Atlas v42</h2>
+                <p>Be among the first to experience the next generation of creative intelligence. Subscribe for updates, training, and exclusive access.</p>
+                <form id="atlasSubscribeForm" class="atlas-subscribe-form">
+                    <input type="email" id="atlasEmailInput" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button primary">Request Access</button>
+                </form>
+                <p id="atlasSubscribeMessage" class="form-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Travel4Fun4U</h3>
+                    <p>Empowering digital nomads and creators worldwide</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/travel4fun4u" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/jcberg" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Travel4Fun4U. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/tracking.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://travel4fun4u.netlify.app/sitemap.xml
